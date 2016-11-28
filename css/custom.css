@@ -1,0 +1,1096 @@
+/* This stylesheet is meant for custom styles, on top of the Ever+ Template */
+/*sticky footer css
+
+GOOGLE INSPECTOR IS OFF BY 60PX @MEDIAS ACTIVATE 8PX lower than written i.e. 768px change happens at 692px (76 px lower than written it happens)*/
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -190px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+  background-color: white;
+}
+.site-footer, .page-wrap:after {
+  height: 190px; 
+}
+.slides {
+	
+	margin-bottom: -40px;
+}
+
+/*some defaults*/
+
+#sliderHead{
+	font-size: 4.3em;
+	
+}
+#sliderText{
+	font-size: 2.8em;
+	
+}
+#imageSlide{
+	
+	/*Class to manually adjust all slides! (They should all now be same dimensions)AW*/
+}
+
+
+#leftNavBar{
+margin-top: 40px;
+margin-left: -3em;
+}
+#rightNavBar{
+margin-top: 40px;
+}
+
+.bg{
+	margin-bottom: -48px;
+}
+
+#phoneMenu{
+	display: none;
+}
+
+#theContent{/*removing this for some reason causes nasty bug!!! AW */
+
+	border-top-width: thick;
+
+	background-color: white;
+
+	
+}
+
+
+
+@media handheld,
+screen and  (min-width: 1400px) {
+
+	body #mainnav {
+	  margin-top: -110px;
+	  -webkit-transition: margin .3s .5s;
+	  transition: margin .3s .5s;
+	  height: 145px;
+	}
+
+	#ServicesProvided{
+		max-width: 50%;
+		
+	}
+	#aboutHeader{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.navbar-default .navbar-brand  { /*sets height of header*/
+	height: 190px;
+
+	} 
+	.navbar-default .navbar-brand img { /*sets location and height of logo*/
+	height: 142px;
+	margin-top: -15px;
+
+	} 
+	
+	/*sets height's and locations of all menu tabs (which are images btw!)*/
+	.aboutMenu{
+    	height: 1.2em;
+    }
+	.servicesMenu{
+    	height: 1.3em; 
+    }
+    .contactMenu{
+    	height: 1.3em;
+
+    }
+    .upcomingMenu{
+    	height: 1.3em;
+    	margin-top: 5px;
+    }
+    .folioMenu{
+    	height: 1.6em;
+    	margin-top: -3px;
+    }
+    
+    
+    .hcenter { /*sets something with the theme class to make it more 'center'. I'm coding around this don't delete*/
+    position: relative;
+
+    -webkit-transform: translate3d(7%, 0, 0) !important;
+    transform: translate3d(7%, 0, 0) !important; 
+	}
+
+	#theContent{
+	margin-top: 4px;
+	}
+	
+	/*these menus are toggled off. They toggle on and #leftMenu and #rightMenu toggle off when sizes are different*/
+	
+	#tabletMenu{
+		display: none;
+	}
+	
+	#phoneMenu{
+		display: none;
+	}
+	
+
+}
+
+
+/*There only needs to be two types of responsivenesses now on. One for the heading (and footer), and the other
+for the Slider images.*/
+
+/*Custom queries for the header*/
+
+@media handheld,
+screen and  (min-width: 1199px) and (max-width: 1450px){ 
+		#theContent{
+			margin-top: -20px;
+		}
+		
+	#aboutHeader{
+		
+		margin-left: 9%;
+	}
+	
+	#ServicesProvided{
+		max-width: 50%;
+		
+	}
+}
+@media handheld,
+screen and  (min-width: 768px) and (max-width: 1450px){ 
+
+	#aboutHeader{
+		
+		margin-left: 5%;
+	}
+	/*tablet and phone menus toggled off so they don't show too! */
+	#tabletMenu{
+		height: 0;
+		display: none;
+	}
+	
+	
+	#ServicesProvided{
+		max-width: 70%;
+		
+	}
+	#phoneMenu{
+		display: none;
+	}
+
+	
+	/*Note: change margin-left only in #leftNavBar to move whole header over w/o leaving a blank grey space! AW*/
+
+	.aboutMenu{
+    	height: .8em;
+    	margin-bottom: 10px;
+    	margin-right:-18px;
+    
+    }
+    .servicesMenu{
+    	height: .9em;
+    	margin-right:-18px;
+    }
+    .contactMenu{
+    	height: .8em;
+    	margin-left: -25px;
+    	margin-right:-18px;
+    }
+    .upcomingMenu{
+    	height: .8em;
+    	margin-top: 2.5px;
+    	margin-right: -3em;
+    }
+    .folioMenu{
+    	height: 1.0em;
+    	margin-top: -0.5px;
+    	margin-right: -3em;
+    }
+
+	.navbar-default .navbar-brand img {
+	height: 102px;
+	margin-top: -14px;
+	} 
+	
+	/*Adjusting Margins until different menu toggles at 767px*/
+	
+	@media handheld,
+	screen and  (min-width: 1020px) and (max-width: 1450px){
+	
+	   	#leftNavBar{
+			margin-left: 14%;
+		}
+		
+		#headerAdjustMarginRight{
+			margin-right:18%;
+		}
+		#ImageSlide{
+		
+			height: 65%;
+			
+			margin-top: 30px;
+		}
+		
+		
+		#ServicesProvided{
+			max-width: 50%;
+		
+		}
+		
+		.hero{
+			background-color: white;
+		}
+	}
+	
+	@media handheld,
+	screen and  (min-width: 930px) and (max-width: 1020px){
+	
+	   	#leftNavBar{
+			margin-left: 9%;
+		}
+		
+		#headerAdjustMarginRight{
+			margin-right: 17%;
+		}
+		
+		#ImageSlide{
+	
+		height: 65%;
+		margin-top: 30px;
+			
+		}
+		
+		.hero{
+			background-color: white;
+		}
+		
+		#ServicesProvided{
+			max-width: 50%;
+		
+		}
+	}
+	
+	@media handheld,
+	screen and  (min-width: 880px) and (max-width: 930px){
+	
+	   	#leftNavBar{
+			margin-left: 4%;
+		}
+		
+		#headerAdjustMarginRight{
+			margin-right: 14%;
+		}
+		
+		#ImageSlide{
+	
+			height: 55%;
+		
+			margin-top: 30px;
+		}
+	
+		.hero{
+			background-color: white;
+		}
+		
+		#ServicesProvided{
+			max-width: 50%;
+		
+		}
+	}
+	
+	@media handheld,
+	screen and  (min-width: 790px) and (max-width: 880px){
+	
+	   	#leftNavBar{
+			margin-left: -2%;
+		}
+		
+		#headerAdjustMarginRight{
+			margin-right: 12%;
+		}
+		
+		#ImageSlide{
+	
+		height: 55%;
+		
+		margin-top: 30px;
+		}
+		
+		.hero{
+			background-color: white;
+		}
+		#ServicesProvided{
+			max-width: 60%;
+		
+		}
+	}
+	
+	@media handheld,
+	screen and  (min-width: 768px) and (max-width: 790px){
+	
+	   	#leftNavBar{
+			margin-left: -5%;
+		}
+		
+		#headerAdjustMarginRight{
+			margin-right: 11%;
+		}
+		
+		#ImageSlide{
+	
+			height: 55%;
+			margin-top: 30px;
+		
+		}
+	
+		.hero{
+			background-color: white;
+		}
+	}
+		#ServicesProvided{
+			max-width: 60%;
+		
+		}
+	    @media handheld, screen and (min-height: 0px) and (max-height: 800px){/*Phone landscape AW*/
+			#theContent{
+				margin-top: 30px;
+			}
+			
+			#ImageSlide{
+				height: 90%;
+				margin-top: 30px;
+			}
+			.hero{
+			
+				background-color: white;
+			}
+		}
+
+}
+
+
+/*change of Menu .about, .services. contact. upcoming drops in for tablet portraits*/
+	
+@media handheld,
+screen and  (min-width: 550px) and (max-width: 768px){ /* some nutty shit is happening at 768 I need to figure out later. REMEMBER set this to 767 and min above to 768 to avoid the nutty shit!. */
+/*This is the point the regular menu has display toggled off and phone menu display toggled on!*/
+
+    .hcenter { /*again does the cool little center thing I code around*/
+    
+	    position: relative;	
+	    -webkit-transform: translate3d(16%, 0, 0) !important;
+	    transform: translate3d(16%, 0, 0) !important; 
+	
+	}
+	#ImageSlide{
+	
+		height: 45%;
+		margin-top: 30px;
+		
+	}
+	#ServicesProvided{
+			max-width: 60%;
+		
+	}
+	.hero{
+		background-color: white;
+	}
+	#leftNavBar{
+		display: none; /*This is Important to get rid of the navBar div I had to add! AW*/
+	}
+	
+	#theContent{
+	
+		margin-top: 4.2em;
+	}
+	
+	ul#tabletMenu li { /*otherwise it displays vertical!!!*/
+   	 display: inline;
+   	 margin-left: -20px;
+	}
+	
+	
+	#tabletMenu { /*otherwise it displays vertical!!!*/
+
+   	 margin-left: 10px;
+	}
+	
+	
+	
+	.aboutTabletMenu{
+    	height: 1.0em;
+    	margin-top: -1px;
+
+    }
+    .servicesTabletMenu{
+    	height: 1.0em;
+		margin-top: 2px;
+    }
+    .contactTabletMenu{
+    	height: 1.0em;
+    	margin-top: 2px;
+
+    }
+    .upcomingTabletMenu{
+    	height: 1.0em;
+
+    }
+	.folioTabletMenu{
+    	height: 1.0em;
+    	margin-top: 7px;
+
+    }
+	
+	#phoneMenu{
+		display: none;
+	}
+	
+	.aboutMenu{
+
+   		display:none;
+    }
+    .servicesMenu{
+
+    	display:none;
+    }
+    .contactMenu{
+
+    	display:none;
+    }
+    .upcomingMenu{
+
+    	display:none;
+    }
+    .folioMenu{
+
+    	display:none;
+    }
+    
+    
+    /*main logo and header space */)
+    .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+    height: 15px;
+    }
+
+	.navbar-default .navbar-brand img {
+	height: 96px;
+	margin-top: -14px;
+
+	} 
+	
+
+	  /*nested query for tablet/cellphone landscapes AW*/
+    @media handheld, screen and (min-height: 0px) and (max-height: 800px){/*Phone landscape AW*/
+		#theContent{
+			margin-top: -9px;
+		}
+		.bg{/*lines up video AW*/
+		 margin-bottom: -13px;
+		}
+		.hero{
+			margin-top: -9px;
+			margin-bottom: 0px;
+		}
+		
+		#tabletMenu{
+			margin-top: -30px;
+			margin-left: 40px;
+		}
+		
+		.hero{
+		
+			background-color: white;
+		}
+		
+		#ImageSlide{
+			height: 65%;
+			margin-top: 60px;
+			margin-left: 3%;
+		}
+		
+		.aboutTabletMenu{
+			height: .8em;
+		}
+		
+		.servicesTabletMenu{
+			height: .9em;
+			margin-top: 2px;
+		}
+		
+		.contactTabletMenu{
+			height: .8em;
+		}
+		
+		.upcomgingTabletMenu{
+			height: .8em;
+		}
+		.folioTabletMenu{
+	    	height: 1.0em;
+	    	margin-top: 2px;
+
+   		 }
+		.navbar-default .navbar-brand img { /*the logo size*/
+		    height: 65px;
+		    margin-top: -14px;
+		    margin-left: 20%;
+		}
+		.slider{
+			margin-top: 9px;
+		}
+
+		.site-footer{
+		margin-top: 20px;
+			height: 30%;
+		}
+
+	    
+	/*end of nested query*/}
+}
+@media handheld,
+screen and (min-width: 429px) and (max-width: 550px){ /*leftNavBars and RightNavBars are toggled display based on media queries*/
+    .hcenter { 
+    position: relative;
+
+    -webkit-transform: translate3d(12%, 0, 0) !important;
+    transform: translate3d(12%, 0, 0) !important; 
+	}
+		#ImageSlide{
+	
+		height: 35%;
+		
+		
+	}
+	
+	.hero{
+		background-color: white;
+	}
+	#mainnav{
+		margin-left: -7%;
+	}
+
+	
+	#theContent{
+	
+		margin-top: 4.2em;
+	}
+	
+	#leftNavBar{
+		display: none; /*This is Important to get rid of the navBar div I had to add! AW*/
+	}
+	
+	ul#tabletMenu li { /*otherwise it displays vertical!!!*/
+   	 	display: inline;
+   	 	margin-left: -10px;
+	}
+	
+	.aboutTabletMenu{
+    	height: .9em;
+
+    }
+    .servicesTabletMenu{
+    	height: .9em;
+
+    }
+    .contactTabletMenu{
+    	height: .9em;
+
+    }
+    .upcomingTabletMenu{
+    	height: .9em;
+
+    }
+	
+	.folioTabletMenu{
+    	height: 1.0em;
+    	margin-top: 3px;
+
+    }
+	
+	#phoneMenu{
+		display: none;
+	}
+	
+	.aboutMenu{
+
+   	display:none;
+    }
+    .servicesMenu{
+
+    	display:none;
+    }
+    .contactMenu{
+
+    	  	display:none;
+    }
+    .upcomingMenu{
+
+    	display:none;
+    }
+    
+    .folioMenu{
+
+    	display:none;
+    }
+    
+    .navbar-default .navbar-brand img {
+	height: 96px;
+	margin-top: -14px;
+    }
+    
+	  /*nested query for tablet/cellphone landscapes AW*/
+    @media handheld, screen and (min-height: 0px) and (max-height: 800px){/*Phone landscape AW*/
+		#theContent{
+			margin-top: -9px;
+		}
+		.bg{/*lines up video AW*/
+		 margin-bottom: -13px;
+		}
+		.hero{
+			margin-top: -9px;
+			margin-bottom: 0px;
+		}
+		
+		#tabletMenu{
+			margin-top: -30px;
+			margin-left: 10px;
+		}
+		
+		.hero{
+		
+			background-color: white;
+		}
+		
+		#ImageSlide{
+			height: 55%;
+			margin-top: 50px;
+			margin-left: 3%;
+		}
+		
+		.aboutTabletMenu{
+			height: .8em;
+		}
+		
+		.servicesTabletMenu{
+			height: .9em;
+			margin-top: 2px;
+		}
+		
+		.contactTabletMenu{
+			height: .8em;
+			margin-top: 2px;
+		}
+		
+		.upcomgingTabletMenu{
+			height: .8em;
+		}
+		.navbar-default .navbar-brand img { /*the logo size*/
+		    height: 65px;
+		    margin-top: -14px;
+		    margin-left: 20%;
+		}
+		.slider{
+			margin-top: 9px;
+		}
+
+		.site-footer{
+		margin-top: 20px;
+			height: 30%;
+		}
+    }
+}
+
+@media handheld,
+screen and (min-width: 370px) and (max-width: 428px){ 
+	.hcenter { 
+    	position: relative;
+    	-webkit-transform: translate3d(-8%, 0, 0) !important;
+    	transform: translate3d(-8%, 0, 0) !important; 
+   		margin-bottom: 40px;
+	}
+	
+	#ImageSlide{
+	
+		margin-top: 40px;
+		height: 45%;
+		margin-left: 3%;
+		width: 100%;
+	}
+	
+	#headerAdjustMarginRight{
+		margin-right: 30%;
+	}
+	.navbar-default #navbar{
+	padding: 0 35px;
+    margin-bottom: -61px;
+    line-height: 1;
+	
+	}
+	
+	#pianoVideo{
+	  width: 300px;
+	  margin-left: -50px;
+	}
+	
+	
+	#stupidSubPhoneMenu{
+	
+		padding-right: 15%;
+	}
+	
+	.hero{
+		background-color: white;
+	
+	}
+	.hero{
+    margin-top: 35px; /*adjusted margins to makeup for custom height change AW*/
+    margin-bottom: -35px;
+    }
+	
+	
+	#leftNavBar{
+		display: none; /*This is Important to get rid of the navBar div I had to add! AW*/
+	}
+	
+	#tabletMenu{
+		display: none;
+	}
+	
+	
+	
+	
+	#phoneMenu{
+		display: inline;
+
+
+	}
+	
+		
+	.aboutPhoneMenu{
+    	height: .9em;
+
+    }
+    .servicesPhoneMenu{
+    	height: .9em;
+
+    }
+    .contactPhoneMenu{
+    	height: .9em;
+
+    }
+    .upcomingPhoneMenu{
+    	height: .9em;
+
+    }
+	
+	.folioPhoneMenu{
+    	height: 1.2em;
+    }
+    
+    
+	.aboutMenu{
+
+   	display:none;
+    }
+    .servicesMenu{
+
+    	display:none;
+    }
+    .contactMenu{
+
+    	  	display:none;
+    }
+    .upcomingMenu{
+
+    	display:none;
+    }
+    
+    .phoneMenu{
+
+    	display:none;
+    }
+    
+    .folioMenu{
+
+    	display:none;
+    }
+        
+    #sliderHead {  
+	  font-size: 1.2em;	  
+	}
+    	#sliderText {  
+	  font-size: .6em;	  
+	}
+    .navbar-default .navbar-brand img {
+		height: 82px;
+		margin-top: -14px;
+    }   
+    
+    #stupidSubPhoneMenu{
+    	margin-top: 0px;
+    }
+    #ContactAFreeLancer {
+	  font-family:   "Segoe Print", Papyrus, MV Boli, "Tempus Sans ITC";/*AW*/
+	  font-size: 8.7vw; /*4.7em changed to 4.7vw 9/4/2016 AW*/
+	  font-weight: 900;
+	}
+	
+	#ServicesProvided{
+		max-width: 100%;
+	
+	}
+}
+
+@media handheld,
+screen and (min-width: 0px) and (max-width: 370px) { /*fits perfect for smallest POS phone which is mine AW*/
+    .hcenter { 
+	    position: relative;
+	    -webkit-transform: translate3d(-10%, 0, 0) !important;
+	    transform: translate3d(-10%, 0, 0) !important; 
+	}
+	
+	.hero{
+		background-color: white;
+	
+	}
+	
+	#ImageSlide{
+	
+		margin-top: 40px;
+		height: 45%;
+		margin-left: 3%;
+		width: 100%;
+	}
+	
+	#theContent{
+		margin-top: -8px;
+	}
+	
+	#headerAdjustMarginRight{
+	
+		margin-left: 1%;
+	}
+	
+	#stupidSubPhoneMenu{
+	
+		margin-top: 1%;
+		margin-bottom: 20px;
+	}
+	
+	#leftNavBar{
+		display: none; /*This is Important to get rid of the navBar div I had to add! AW*/
+	}
+	
+	#phoneMenu{
+		display: inline;
+	}
+	
+		
+	.aboutPhoneMenu{
+    	height: .9em;
+
+    }
+    .servicesPhoneMenu{
+    	height: .9em;
+
+    }
+    .contactPhoneMenu{
+    	height: .9em;
+
+    }
+    .upcomingPhoneMenu{
+    	height: .9em;
+
+    }
+	.folioPhoneMenu{
+    	height: 1.2em;
+    }
+    
+    
+    
+	#tabletMenu{
+		display: none;
+	}
+	
+	.aboutMenu{
+   		display:none;
+    }
+    .servicesMenu{
+
+    	display:none;
+    }
+    .contactMenu{
+
+    	 display:none;
+    }
+    .upcomingMenu{
+
+    	display:none;
+    }
+    .folioMenu{
+
+    	display:none;
+    }
+    
+    
+    .navbar-default .navbar-brand img {
+	height: 82px;
+	width: 276px;
+	margin-top: -14px;
+    }
+    
+        #sliderHead {  
+	  font-size: 1.2em;	  
+	}
+    	#sliderText {  
+	  font-size: .6em;	  
+	}
+	
+	.hero{
+    margin-top: 30px; /*adjusted margins to makeup for custom height change AW*/
+    margin-bottom: -20px;
+	}
+		
+	#ContactAFreeLancer {
+	  font-family:   "Segoe Print", Papyrus, MV Boli, "Tempus Sans ITC";/*AW*/
+	  font-size: 8.7vw; /*4.7em changed to 4.7vw 9/4/2016 AW*/
+	  font-weight: 900;
+	}
+	
+	#ServicesProvided{
+		max-width: 100%;
+	
+	}
+}
+
+
+
+@media handheld, screen and (min-height: 0px) and (max-height: 300px){/*trying to get cell phone landscape dimensions AW*/
+	
+	.hero{
+   /* margin-top: 30px; /*adjusted margins to makeup for custom height change AW*/
+   /* margin-bottom: -20px;*/
+
+    }
+    #sliderHead {  
+	  font-size: 1.4em;	  
+	}
+	#sliderText {  
+	  font-size: .8em;	  
+	}
+	.site-footer {
+	display: none;
+	}
+	.slides {
+	margin-bottom: 90px;
+	}
+	
+	#mainnav{
+		height: 40%;
+	}
+	
+	#navbar-brand{
+		height: 20%;
+	}
+	#tabletMenu{
+		display: none; /*This is Important to get rid of the navBar div I had to add! AW*/
+	}
+	
+	#leftNavBar{
+	display:none;
+	}
+	#rightNavBar{
+	display:none;
+	}
+	
+	#ContactAFreeLancer {
+	  font-family:   "Segoe Print", Papyrus, MV Boli, "Tempus Sans ITC";/*AW*/
+	  font-size: 8.7vw; /*4.7em changed to 4.7vw 9/4/2016 AW*/
+	  font-weight: 900;
+	}
+	
+	#ServicesProvided{
+		max-width: 100%;
+	
+	}
+	
+}
+
+
+
+/*responsiveness for aboutheader AW*/
+@media handheld,
+screen and (min-width: 1200px) {
+
+	.headAboutImage {
+
+	  margin-left: 90px;
+	  margin-bottom: -130px;
+	}
+}
+@media handheld,
+screen and (min-width: 800px) and (max-width: 1200px) {
+
+	.headAboutImage {
+	margin-left: 50px;
+		margin-bottom: -90px;
+	}
+
+}
+
+@media handheld,
+screen and (min-width: 600px) and (max-width: 800px) {
+
+	.headAboutImage {
+	margin-left: 20px;
+		margin-bottom: -60px;
+	}
+
+}
+
+
+@media handheld,
+screen and (min-width: 350px) and (max-width: 600px) {
+
+	.headAboutImage {
+	margin-left: -5px;
+		margin-bottom: -35px;
+	}
+
+
+}
+
+@media handheld,
+screen and (max-width: 350px) { /*this happens at 342px in inspector off by about 8px AW*/
+
+	.headAboutImage {
+	margin-left: -25px;
+		margin-bottom: -40px;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  
+
+}

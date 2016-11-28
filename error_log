@@ -1,0 +1,52 @@
+[13-May-2016 22:32:56 UTC] PHP Warning:  include_once(/home/netdijwk/public_html/wp-content/themes/Phoenix - Clean.Responsive.Wordpress.Theme.v1.06/phoenix-v1-06/include/plugin/blog-item.php): failed to open stream: No such file or directory in /home/netdijwk/public_html/wp-content/themes/Phoenix - Clean.Responsive.Wordpress.Theme.v1.06/phoenix-v1-06/functions.php on line 84
+[13-May-2016 22:32:56 UTC] PHP Warning:  include_once(): Failed opening '/home/netdijwk/public_html/wp-content/themes/Phoenix - Clean.Responsive.Wordpress.Theme.v1.06/phoenix-v1-06/include/plugin/blog-item.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/netdijwk/php') in /home/netdijwk/public_html/wp-content/themes/Phoenix - Clean.Responsive.Wordpress.Theme.v1.06/phoenix-v1-06/functions.php on line 84
+[14-May-2016 23:44:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/netdijwk/public_html/wp-content/themes/theme/theagency/inc/shortcodes/slider/slider.php on line 14
+[14-May-2016 23:45:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/netdijwk/public_html/wp-content/themes/theme/theagency/inc/shortcodes/slider/slider.php on line 14
+[15-May-2016 00:06:23 UTC] PHP Warning:  include_once(/home/netdijwk/public_html/wp-content/themes/Phoenix - Clean.Responsive.Wordpress.Theme.v1.06/phoenix-v1-06/include/plugin/blog-item.php): failed to open stream: No such file or directory in /home/netdijwk/public_html/wp-content/themes/Phoenix - Clean.Responsive.Wordpress.Theme.v1.06/phoenix-v1-06/functions.php on line 84
+[15-May-2016 00:06:23 UTC] PHP Warning:  include_once(): Failed opening '/home/netdijwk/public_html/wp-content/themes/Phoenix - Clean.Responsive.Wordpress.Theme.v1.06/phoenix-v1-06/include/plugin/blog-item.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/netdijwk/php') in /home/netdijwk/public_html/wp-content/themes/Phoenix - Clean.Responsive.Wordpress.Theme.v1.06/phoenix-v1-06/functions.php on line 84
+[15-May-2016 03:31:36 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:31:55 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:31:56 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:31:57 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:31:58 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:32:00 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:32:01 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:32:13 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:32:39 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 5
+[15-May-2016 03:33:05 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:33:06 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:34:25 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:34:27 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:35:10 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:35:11 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:35:12 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:35:13 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:35:14 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:35:43 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:35:44 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:37:14 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 101
+[15-May-2016 03:37:15 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 101
+[15-May-2016 03:37:15 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 101
+[15-May-2016 03:37:16 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 101
+[15-May-2016 03:38:01 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:38:02 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:38:03 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:38:46 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 7
+[15-May-2016 03:38:47 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 7
+[15-May-2016 03:38:48 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 7
+[15-May-2016 03:39:58 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:40:00 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 104
+[15-May-2016 03:50:16 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 105
+[15-May-2016 03:50:17 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 105
+[15-May-2016 03:50:18 America/New_York] PHP Fatal error:  Cannot redeclare header() in /home/netdijwk/public_html/includes/header.php on line 105
+[07-Jun-2016 06:35:29 America/New_York] PHP Fatal error:  Call to undefined function showHeader() in /home/netdijwk/public_html/index.php on line 6
+[09-Jun-2016 01:09:25 America/New_York] PHP Fatal error:  Call to undefined function showHeader() in /home/netdijwk/public_html/home.php on line 3
+[09-Jun-2016 01:09:27 America/New_York] PHP Fatal error:  Call to undefined function showHeader() in /home/netdijwk/public_html/home.php on line 3
+[09-Jun-2016 01:09:31 America/New_York] PHP Fatal error:  Call to undefined function showHeader() in /home/netdijwk/public_html/home.php on line 3
+[09-Jun-2016 01:09:35 America/New_York] PHP Fatal error:  Call to undefined function showHeader() in /home/netdijwk/public_html/home.php on line 3
+[29-Jun-2016 02:25:18 America/New_York] PHP Fatal error:  Call to undefined function showHeader() in /home/netdijwk/public_html/servicesMatt'sDraft.php on line 5
+[19-Jul-2016 05:34:05 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/netdijwk/public_html/index.php on line 10
+[19-Jul-2016 05:34:06 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/netdijwk/public_html/index.php on line 10
+[29-Sep-2016 05:35:46 America/New_York] PHP Fatal error:  Call to undefined function showHeader() in /home/netdijwk/public_html/aboutNetDoodler.php on line 4
+[29-Sep-2016 05:35:59 America/New_York] PHP Fatal error:  Call to undefined function showContent() in /home/netdijwk/public_html/aboutNetDoodler.php on line 7
+[29-Sep-2016 05:36:22 America/New_York] PHP Fatal error:  Call to undefined function showContent() in /home/netdijwk/public_html/aboutNetDoodler.php on line 7
