@@ -12,8 +12,8 @@ function showHeader() {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="title" content="NetDoodler: Web Design" />
-	<meta name="description" content="We are only the finest crayon minions who are willing to put their lives on the line so that your small business website can: stick out and succeed. Freelance Web Design Services." />
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript, crayon minions, crayon, minion, web, design, internet, freelance, developer, programming, service, Angular, React, php, fort collins, greeley, colorado, cheyenne, wyoming, boulder, denver, longmont, loveland">
+	<meta name="description" content="We are only the finest crayon minions who are willing to put their lives on the line so that your small business website can: stick out and succeed. Freelance Web Design Services in the Larimer County Fort Collins, Colorado." />
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript, crayon minions, crayon, minion, web, design, internet, freelance, developer, programming, service, Angular, React, php, fort collins, greeley, colorado, cheyenne, wyoming, boulder, denver, longmont, loveland, larimer">
   <meta name="author" content="Anthony Walter">
 	<meta property="og:image" content="http://netdoodler.com/images/logos/FINALVERSIONBIATCH!(withcaption).jpg" />
     <link rel="stylesheet" type="text/css" href="css/core.css">
