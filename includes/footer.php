@@ -21,6 +21,9 @@ function showFooter() {
 		            </div>
 		            <div class="col-md-4" style="margin-left: auto;">
 		              <p>&copy; NetDoodler 2016 Anthony Walter</p>
+		              <p></p>
+		              <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" ><img alt="Creative Commons License" style="border-width:0 margin-top: 20px; margin-left: 20%; margin-right: 30%; margin-top: 20px;" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+		              
 		            </div>
 		            <div class="col-md-4" style="margin-left: center;">
 		
