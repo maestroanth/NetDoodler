@@ -56,7 +56,7 @@
 				 <p style= "font-size: 1.2em;"><a href="/Misc. Downloads/Cosimous.exe" download"><img style="width: 80%; border: solid; " src="images/cosimouspic3.png" alt="Smiley face" ></a></p>
                 </div>
                  <p style= "font-size: 1.2em;"><a style="font-family: quicksand, movi boli;" href="/Misc. Downloads/Cosimous.exe" download"><i>(Click for Playable Download and Extract the "Cosimous" Folder)</i></a></p>
-                 <p><i>-"Now wouldn't expanding this game about a realm of different universes with varying laws of physics be awesome in a 3D VR/AR world; either for the Occulus or Google Glasses?"</i> </p>
+                 <p><i>-"Now wouldn't expanding this game about a realm of different universes with varying laws of physics be awesome in a 3D VR/AR world; either for the Occulus or Google Glasses?"</i>  </p>
 			</div>  
 			
 				
@@ -81,7 +81,7 @@
 
 
               </div> 
-				                       <p style= "margin-top: 0px; font-size: 1.2em; margin-bottom: 50px;">If you're the more technical type, and would like to see some of the code I wrote in the past, feel free to checkout my  <a href="https://github.com/maestroanth" target="_blank"> github profile</a> . </p>
+				                
 				
 				<div class="col-md-12 text-center" style="margin-top: 120px; border-top: solid;">
 				
