@@ -14,7 +14,7 @@
 	             <div class="col-md-6" style="position: relative; margin-top: 5px;"> <!-- add another @media sub-class here to improve responsiveness -->
 	                 <div class="grid classic" style="position: relative; height: 500px; width: 75%; margin-left: 14%; margin-right: auto; margin-bottom: 40px; border: solid;">
 	          		  <div class="grid-sizer" "></div>
-						<a href="/images/mypic5.jpg" class="item old" target="_blank">
+						<a href="/images/mypic5.jpg" class="item old" target="_blank"> 
 			              <div class="bg" style="background-image: url(/images/mypic5.jpg); margin-bottom: 0px;" ></div>
 
 
