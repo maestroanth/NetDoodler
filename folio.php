@@ -81,7 +81,7 @@
 
 
               </div> 
-				                       <p style= "margin-top: 0px; font-size: 1.2em; margin-bottom: 50px;">If you're the more technical type, and would like to see some of the code I wrote in the past, feel free to checkout my  <a href="https://github.com/maestroanth" target="_blank"> github profile</a> .</p>
+				                       <p style= "margin-top: 0px; font-size: 1.2em; margin-bottom: 50px;">If you're the more technical type, and would like to see some of the code I wrote in the past, feel free to checkout my  <a href="https://github.com/maestroanth" target="_blank"> github profile</a> . </p>
 				
 				<div class="col-md-12 text-center" style="margin-top: 120px; border-top: solid;">
 				
