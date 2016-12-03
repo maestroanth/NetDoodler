@@ -77,7 +77,7 @@
                 		<p>  <a href="http://www.idtools.org/identify.php" target="_blank"> ITP Home<img style="width: 90%;" src="images/itphome.jpg" alt="Smiley face" ></a></p>
                 </div>
 
-                <p>If you're the tech type that would like to see some code I have written in the past feel free to check out my <a href="https://github.com/maestroanth">gitub profile</a></p>
+                <p>In addition, if you're the tech type that would like to see some code I have written, please feel free to check out my <a href="https://github.com/maestroanth">gitub profile</a>.</p>
 
 
               </div>
