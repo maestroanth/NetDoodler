@@ -62,7 +62,7 @@
 				
 			<div class="col-md-12 text-center" style= "margin-top: 30px; border-top: solid; border-bottom: solid; line-height: 6em;">
               
-                <p style= "font-family: Maiandra GD, Movi Boli, Segoe Print; margin-top: 40px; margin-bottom: 40px;"> Other Examples of Mr. Walter's Fine Work (USDA): </p>
+                <p style= "font-family: Maiandra GD, Movi Boli, Segoe Print; margin-top: 40px; margin-bottom: 40px;"> Other Examples of Mr. Walter's Fine Work (USDA):  </p>
            
  			</div> 
                
