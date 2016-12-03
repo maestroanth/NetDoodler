@@ -63,7 +63,7 @@
 			<div class="col-md-12 text-center" style= "margin-top: 30px; border-top: solid; border-bottom: solid; line-height: 6em;">
               
                 <p style= "font-family: Maiandra GD, Movi Boli, Segoe Print; margin-top: 40px; margin-bottom: 0px;"> Other Examples of Mr. Walter's Fine Work (USDA): </p>
-                <p style= "margin-top: 0px; font-size: 1.2em; margin-bottom: 50px;">(A Section Which I Hope Will Soon Be Filled With NetDoodler Projects!!!)</p>
+           
  			</div> 
                
              <div class="col-md-12 text-center" style= "border-bottom: solid; padding-bottom: 40px;">
@@ -77,7 +77,7 @@
                 		<p>  <a href="http://www.idtools.org/identify.php" target="_blank"> ITP Home<img style="width: 90%;" src="images/itphome.jpg" alt="Smiley face" ></a></p>
                 </div>
                 
-                
+                     <p style= "margin-top: 0px; font-size: 1.2em; margin-bottom: 50px;">If you're the more technical type, and would like to see some of the code I wrote in the past, feel free to checkout my  <a href="https://github.com/maestroanth" target="_blank"> github profile</a> .</p>
 
 
               </div> 
