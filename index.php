@@ -26,7 +26,7 @@ function showContent() {//AJAX par
            <!-- Slide 1 Note: I'm hardcoding the responsiveness of just images now under ID "ImageSlide"...goal is to do all images instead of text and headings all the time"-->
           <li class="slide">
             <section class="hero">
-              <div id="ImageSlide" style="background-image:url(images/Slides/Slide1newv.jpg);" class="bg parallax"></div>
+              <div id="ImageSlide" style="background-image:url(images/Slides/Slide1(wobackground).jpg);" class="bg parallax"></div>
               <div class="container vcenter">
                 <div class="row">
                 <!-- 	<img src="images/Slides/Slide1.jpg" style="width: 100%; height: auto;"> <!-- will have to hardcord better responsiveness later -->
