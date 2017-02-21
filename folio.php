@@ -30,7 +30,7 @@
 
 				<p style= "font-family: Maiandra GD, Movi Boli, Segoe Print;"> Mr. Walter's Resumes: </p>
                 <div class="col-md-6" style="margin-top: -25px;">
-               		 <p style="font-family: Maiandra GD;"><a href="/resumes/resumeProgrammingAnthonyWalter02-20-2017.pdf" download>Programming</a></p>
+               		 <p style="font-family: Maiandra GD;"><a href="/resumes/resumeProgramminAnthonyWalter02-20-2017.pdf" download>Programming</a></p>
                 </div>
                 <div class="col-md-6" style="margin-top: -25px;">
 
