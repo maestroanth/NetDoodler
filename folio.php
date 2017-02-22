@@ -70,8 +70,8 @@
                 <div class="col-md-4" style= "margin-top: 50px;">
                 		<p>  <a href="http://www.idtools.org/id/grasshoppers/" target="_blank"> Grasshopper ID <img style="width: 90%;" src="images/grasshopper.jpg" alt="Smiley face" ></a></p>
                 </div>
-                 <div class="col-md-4" style= "margin-top: 50px; width: 31%;">
-                		<p>  <a href="http://idtools.org/id/mites/beemites" target="_blank"> BeeMite ID<img style="width: 90%;" src="images/beemite.jpg" alt="Smiley face" ></a></p>
+                 <div class="col-md-4" style= "margin-top: 50px;">
+                		<p>  <a href="http://idtools.org/id/mites/beemites" target="_blank"> BeeMite ID<img style="width: 83%;" src="images/beemite.jpg" alt="Smiley face" ></a></p>
                 </div>
                  <div class="col-md-4" style= "margin-top: 50px;">
                 		<p>  <a href="http://www.idtools.org/identify.php" target="_blank"> ITP Home<img style="width: 90%;" src="images/itphome.jpg" alt="Smiley face" ></a></p>
