@@ -77,7 +77,7 @@
                 		<p>  <a href="http://www.idtools.org/identify.php" target="_blank"> ITP Home<img style="width: 90%;" src="images/itphome.jpg" alt="Smiley face" ></a></p>
                 </div>
             </div>
-             <div class="col-md-12 text-center" style= "border-bottom: solid; padding-bottom: 40px;">
+             <div class="col-md-12 text-center" style= "border-bottom: solid; padding-top: 40px; padding-bottom: 40px;">
                 <p>In addition, if you're the tech type that would like to see some code I have written, please feel free to check out my <a href="https://github.com/maestroanth" target="_blank">gitub profile</a>.</p>
 
               </div>
